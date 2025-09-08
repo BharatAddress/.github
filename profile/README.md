@@ -1,5 +1,7 @@
 # Bharat Address Open Source Project
 
+Website: https://bharataddress.github.io — landing, docs (/docs), playground (/playground), developers (/developers)
+
 Publish a minimal, adoptable open standard and reference tooling for India’s address data — pairing human-readable addresses with precise DIGIPIN cells, PIN compatibility, and LGD identifiers. We integrate; we do not reinvent.
 
 ## What We Build
@@ -23,7 +25,7 @@ Publish a minimal, adoptable open standard and reference tooling for India’s a
 
 ## Quick Start
 - Read the schema in `specs` and the minimal OGC API Features stub.
-- Run the demo API: `uvicorn main:app --port 8000` in `api-server`.
+- Run the demo API: `uvicorn main:app --port 8000` in `api-server` (set `CORS_ALLOW_ORIGINS` to include the site when testing from the browser).
 - Validate sample data: see `tools-validator` README.
 - Try the viewer: open `integrations-bharatmaps/viewer.maplibre.html`.
 
